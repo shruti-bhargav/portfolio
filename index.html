@@ -13,7 +13,7 @@
         }
 
         header{
-            background-color : #de814e;
+            background-color : none;
             color: rgb(123, 210, 239);
             padding: 40 px;
             text-align: center;
@@ -25,7 +25,8 @@
             margin: auto;
         }
         h1{
-            color: #a4032e;
+            background : none;
+            border: none;
             font-size: 2.5em;
         }
 
@@ -70,14 +71,57 @@
             background-color: #55e4df;
         }
 
+        .fade-text{
+            background: transparent;
+            border:none;
+            text-decoration:none;
+            box-shadow:none;
+            color:inherit;
+        }
+
+      
+   
+
+        .fade-text span {
+            opacity: 0;
+            background: none;
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+            animation: fadeInLeft 1s forwards;
+            animation-delay: calc(var(--i) * 0.5s);
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #a4032e; 
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                    transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                    transform: translateY(0);
+            }
+}
+
+
         
 
-    </style>
+</style>
     
 
 </head>
 <body>
-    <h1>HI, I AM SHRUTI BHARGAV</h1>
+    <header>
+        <h1 class ="fade-text">
+            <span  style="--i:1">HI,</span>
+            <span  style="--i:2">I AM </span>
+            <span  style="--i:3">SHRUTI</span>
+            <span  style="--i:4">BHARGAV</span>
+        </h1>
+    </header>
     <p> I AM A COMPUTER SCIENCE STUDENT AND AN ASPIRING SOFTWARE AND WEB DEVELOPER </p>
     <h2> PROJECTS</h2>
     <ul>
@@ -122,5 +166,7 @@
         
     
     <p> More updates coming soon...</p>
+
+ 
 </body>
 </html>
