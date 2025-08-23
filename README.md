@@ -1,24 +1,35 @@
-#PERSONAL PORTFOLIO WEBSITE
+# 🌐 Portfolio Website
 
-This is a simple personal portfolio website built using HTML and CSS .It showcases my skills,education,and project in a clear and responsive device.
+This is my personal portfolio website where I showcase my projects, resume, and background.  
 
-## FEATURES
--- Responsive layout
--- About section
--- Projects section
+---
 
-## PROJECT STRUCTURE 
+## 📌 Features
+- *About Me*: A short introduction about myself.  
+- *Projects*:  
+  - School Review App (Flask + MySQL)  
+  - Portfolio Website (HTML, CSS, Bootstrap)  
+  - To-Do List in Python (Terminal-based)  
+- *Resume*: Direct link to download my resume.  
+- *Education*:  
+  - B.Tech in Computer Science Engineering (2022–2026), Dr. Akhilesh Dasgupta Institute of Professional Studies, IPU University  
+  - Class 12th (CBSE) – 95.2%  
+- *Contact Section*: Email and GitHub links.  
 
----------- index.html
----------- README.md
+---
 
-## TECHNOLOGIES USED
---HTML
---CSS
+## 🚀 Live Link
+🔗 [View Portfolio](https://regal-kulfi-89ee27.netlify.app/)
 
-## STATUS 
-Currently working on javascript animation and more project cards!
+---
 
-## AUTHOR 
-Shruti Bhargav
-[Github] (https://github.com/shruti-bhargav/portfolio.git)
+## 🛠 Tech Stack
+- *Frontend*: HTML, CSS, Bootstrap  
+- *Backend (Projects)*: Flask, Python, MySQL  
+- *Version Control*: Git & GitHub  
+
+---
+
+## 📬 Contact
+- *Email*: bhargavshruti67@underageunit.com  
+- *GitHub*: [shruti-bhargav](https://github.com/shruti-bhargav)

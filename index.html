@@ -1,172 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset ="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-    <title> Shruti bhargav --- Portfolio </title>
-    <style>
-        body {
-        font-family: 'Poppins', Tahoma, sans-serif;
-        background: #f5dede;
-        padding: 40 px;
-        color: #0e0c0e;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Shruti Bhargav --- Portfolio</title>
 
-        header{
-            background-color : none;
-            color: rgb(123, 210, 239);
-            padding: 40 px;
-            text-align: center;
-        }
+  <style>
+    body {
+      font-family: 'Poppins', Tahoma, sans-serif;
+      background: #f5dede;
+      margin: 0;
+      padding: 20px;
+      color: #0e0c0e;
+    }
 
-        section{
-            padding: 40px 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        h1{
-            background : none;
-            border: none;
-            font-size: 2.5em;
-        }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
 
-        h2{
-            border-bottom:2px solid #061d67;
-            padding-bottom: 8px;
-            color:#333333;
+    h1 {
+      font-size: 2.5em;
+      border: none;
+      background: none;
+    }
 
-        }
-        ul{
-            list-style-type: none;
-            padding : 0;
+    h2, h3, h4 {
+      color: #333333;
+      margin-top: 30px;
+    }
 
-        }
+    h2 {
+      border-bottom: 2px solid #061d67;
+      padding-bottom: 5px;
+    }
 
-        li{
-            margin-bottom: 15px;
-            font-size: 1.1em;
-        }
-        a{
-            color: #06238b;
-            text-decoration : none;
-            font-weight:600;
+    h3 {
+      font-size: 1.8em;
+      color: #a4032e;
+      border-bottom: 2px solid #a4032e;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+    }
 
-        
-        }
-        a:hover{
-            text-decoration: underline;
-        }
+    h4 strong{
+        font-size: 2 em;
+        border-bottom: 2px ;
+        padding-bottom: 5px;
+    }
 
-        .btn{
-            background-color: #2c0694;
-            color: rgb(248, 245, 245);
-            padding:10px 20px;
-            display: inline-block;
-            font-weight: bold;
-            margin-top:15px;
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
 
-        }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
-        .btn:hover{
-            background-color: #55e4df;
-        }
+    li {
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
 
-        .fade-text{
-            background: transparent;
-            border:none;
-            text-decoration:none;
-            box-shadow:none;
-            color:inherit;
-        }
+    a {
+      color: #06238b;
+      text-decoration: none;
+      font-weight: 600;
+    }
 
-      
-   
+    a:hover {
+      text-decoration: underline;
+    }
 
-        .fade-text span {
-            opacity: 0;
-            background: none;
-            border: none;
-            text-decoration: none;
-            display: inline-block;
-            animation: fadeInLeft 1s forwards;
-            animation-delay: calc(var(--i) * 0.5s);
-            font-size: 3.5rem;
-            font-weight: bold;
-            color: #a4032e; 
-        }
+    .btn {
+      background-color: #2c0694;
+      color: #e3bbf7;
+      padding: 10px 20px;
+      display: inline-block;
+      font-weight: bold;
+      margin-top: 15px;
+      border-radius: 4px;
+    }
 
-        @keyframes fadeInLeft {
-            from {
-                opacity: 0;
-                    transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                    transform: translateY(0);
-            }
-}
+    .btn:hover {
+      background-color: #55e4df;
+      color: #000;
+    }
 
+    .fade-text span {
+      opacity: 0;
+      display: inline-block;
+      animation: fadeInUp 1s forwards;
+      animation-delay: calc(var(--i) * 0.5s);
+      font-size: 3.5rem;
+      font-weight: bold;
+      color: #a4032e;
+    }
 
-        
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 
-</style>
-    
+    /* Highlight Projects more */
+    #projects li {
+      background: #f1d5d5;
+      border-left: 5px solid #a4032e;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    }
 
+    #projects strong {
+      font-size: 1.2em;
+      color: #2c0694;
+    }
+
+  </style>
 </head>
 <body>
-    <header>
-        <h1 class ="fade-text">
-            <span  style="--i:1">HI,</span>
-            <span  style="--i:2">I AM </span>
-            <span  style="--i:3">SHRUTI</span>
-            <span  style="--i:4">BHARGAV</span>
-        </h1>
-    </header>
-    <p> COMPUTER SCIENCE STUDENT| ASPIRING SOFTWARE & WEB DEVELOPER |TURNING IDEAS INTO CODE </p>
-    <h2> PROJECTS</h2>
+
+  <header>
+    <h1 class="fade-text">
+      <span style="--i:1">HI,</span>
+      <span style="--i:2">I AM</span>
+      <span style="--i:3">SHRUTI</span>
+      <span style="--i:4">BHARGAV</span>
+    </h1>
+    <p>COMPUTER SCIENCE STUDENT | ASPIRING SOFTWARE & WEB DEVELOPER | TURNING IDEAS INTO CODE</p>
+  </header>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>🎓 Education</h2>
     <ul>
-         <li>
-            <strong>SCHOOL REVIEW APP</strong>
-            <a href  ="https://github.com/shruti-bhargav/School-Review-APP">
-                view on github
-            </a>
-            <p>This is a full-stack web application where users can submit and read reviews about schools. The application allows users to add a new review, search for reviews based on the school's name, and view a list of all submitted reviews.</p>
-            
-
-        </li>
-        <li>
-            <strong> PORTFOLIO WEBSITE</strong> 
-            <a href  ="https://github.com/shruti-bhargav/portfolio">
-                view on github
-            </a>
-            <p>This is a simple personal portfolio website built using HTML and CSS .It showcases my skills,education,and project in a clear and responsive device.</p>
-            
-
-        </li>
-       <li>
-            <strong>TO DO LIST PYTHON (PYTHON)</strong>
-            <a href  ="https://github.com/shruti-bhargav/todo--app-python">
-                view on github
-            </a>
-            <p>A simple terminal-based To-Do List application built using core Python. Tasks are stored in a text file so they remain saved after closing the program.</p>
-            
-
-        </li>
-            
-
-        
+      <li>
+        <strong>B.Tech in Computer Science Engineering</strong> (2022–2026)<br>
+        Dr. Akhilesh Dasgupta Institute of Professional Studies, affiliated to IPU University
+      </li>
+      <li>
+        <strong>Class 12th (CBSE)</strong> – 95.2%<br>
+        Little Flowers Public Sr. Sec. School, 2022
+      </li>
     </ul>
-    <Section id ="resume">
-        <h2> Resume </h2>
-        <a href ="shruti_Resume.pdf" download class = "btn">Download Resume</a>
-            
-    </Section>
+  </section>
 
+  <!-- Projects -->
+  <section id="projects">
+    <h3>💻 Projects</h3>
+    <ul>
+      <li>
+        <strong>SCHOOL REVIEW APP</strong>
+        <a href="https://github.com/shruti-bhargav/School-Review-APP" target="_blank">view on github</a>
+        <p>This is a full-stack web application where users can create, read, update, and delete reviews about schools. It allows users to add a new review, search for reviews by school name, and view a list of all submitted reviews.</p>
+      </li>
 
-        
-    
-    <p> More updates coming soon...</p>
+      <li>
+        <strong>PORTFOLIO WEBSITE</strong>
+        <a href="https://github.com/shruti-bhargav/portfolio" target="_blank">view on github</a>
+        <p>A personal portfolio website built with HTML and CSS. It showcases my skills, education, and projects in a clean, responsive design.</p>
+      </li>
 
- 
+      <li>
+        <strong>TO-DO LIST APP (PYTHON)</strong>
+        <a href="https://github.com/shruti-bhargav/todo--app-python" target="_blank">view on github</a>
+        <p>A simple terminal-based To-Do List application built with core Python. Tasks are stored in a text file so they remain saved after closing the program.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume">
+    <h4>📄 Resume</h4>
+    <a href="shruti_Resume .pdf" download class="btn">Download Resume</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h4>📬 Contact</h4>
+    <p>You can reach out to me via email or check out my work on GitHub:</p>
+    <ul>
+      <li>Email: <a href="mailto:bhargavshruti67@gmail.com">bhargavshruti67@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/shruti-bhargav" target="_blank">github.com/shruti-bhargav</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p style="text-align:center; margin-top:30px;">✨ More updates coming soon... ✨</p>
+  </footer>
+
 </body>
 </html>
