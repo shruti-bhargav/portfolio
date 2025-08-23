@@ -12,7 +12,7 @@ This is my personal portfolio website where I showcase my projects, resume, and 
   - To-Do List in Python (Terminal-based)  
 - *Resume*: Direct link to download my resume.  
 - *Education*:  
-  - B.Tech in Computer Science Engineering (2022–2026), Dr. Akhilesh Dasgupta Institute of Professional Studies, IPU University  
+  - B.Tech in Computer Science Engineering (2022–2026), Dr. Akhilesh Das Gupta Institute of Professional Studies, IPU University  
   - Class 12th (CBSE) – 95.2%  
 - *Contact Section*: Email and GitHub links.  
 
