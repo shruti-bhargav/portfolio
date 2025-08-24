@@ -31,10 +31,5 @@ This is my personal portfolio website where I showcase my projects, resume, and 
 ---
 
 ## 📬 Contact
-<<<<<<< HEAD
 - *Email*: bhargavshruti67@gmail.com  
 - *GitHub*: [shruti-bhargav](https://github.com/shruti-bhargav)
-=======
-- *Email*: bhargavshruti67@underageunit.com  
-- *GitHub*: [shruti-bhargav](https://github.com/shruti-bhargav)
->>>>>>> be508bc2bba22025a496e2b91bdf78f4d14061da
