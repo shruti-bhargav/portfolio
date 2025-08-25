@@ -7,7 +7,7 @@ This is my personal portfolio website where I showcase my projects, resume, and 
 ## 📌 Features
 - *About Me*: A short introduction about myself.  
 - *Projects*:  
-  - School Review App (Flask + MySQL, Html , Bootstrap)  
+  - School Review App (Flask + MySQL, Html , Bootstrap)  , live link 
   - Portfolio Website (HTML)  
   - To-Do List in Python (Terminal-based)  
 - *Resume*: Direct link to download my resume.  
